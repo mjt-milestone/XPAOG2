@@ -396,13 +396,13 @@
   
   
     <li class="md-nav__item">
-      <a href="../Intro/New43/" class="md-nav__link">
+      <a href="../Intro/New44/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     
   
-    Whats new in version 4.3?
+    Whats new in version 4.4?
   
 
     
@@ -617,6 +617,33 @@
     
   
     Distributed deployment options
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Plan/DistEventSrv/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Distributed Event Server system design
   
 
     
@@ -2031,6 +2058,33 @@
   
   
     <li class="md-nav__item">
+      <a href="../AdminConfig/GPSCoords/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    GPS coordinates
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../AdminConfig/ACEventCats/" class="md-nav__link">
         
   
@@ -2414,6 +2468,33 @@
     
   
     Map icon hardware and status details
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SCFeatures/SmartMap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Smart Map
   
 
     
@@ -3440,14 +3521,14 @@
 
 <h1 id="basic-support-checklist">Basic support checklist<a class="headerlink" href="#basic-support-checklist" title="Permanent link">&para;</a></h1>
 <p>For issues not covered in this guide, please contact Milestone Support at support@milestone.us, or by phone at 503-350-1100.</p>
-<p>Simple items can lead to support calls if overlooked. Below is a short list of those items. First are the items to check on the XProtect Access system, followed by a list of things to verify on the OnGuard system. For both, make sure the versions of the OnGuard system and the XProtect system are <a href="https://download.milestonesys.com/LenelS2xpa/OnGuard-XProtect-Access-Compatibility.pdf">supported</a>.</p>
+<p>Simple items can lead to support calls if overlooked. Below is a short list of those items. First are the items to check on the XProtect Access system, followed by a list of things to verify on the OnGuard system. For both, make sure the versions of the OnGuard system and the XProtect system are <strong><a href="https://download.milestonesys.com/LenelS2xpa/OnGuard-XProtect-Access-Compatibility.pdf">supported</a></strong>.</p>
 <h2 id="xprotect-access">XProtect Access<a class="headerlink" href="#xprotect-access" title="Permanent link">&para;</a></h2>
 <details class="abstract">
 <summary>Start Here</summary>
 <ul>
-<li>Check that the doors in XProtect Access are <a href="/Prereqs/MSLic/">licensed</a>.</li>
-<li>Check that the doors in XProtect Access are <a href="/AdminConfig/">enabled</a>.</li>
-<li>Verify the <a href="/Install/">XProtect Access Service</a> is running. <ul>
+<li>Check that the doors in XProtect Access are <strong><a href="/Prereqs/MSLic/">licensed</a></strong>.</li>
+<li>Check that the doors in XProtect Access are <strong><a href="/AdminConfig/">enabled</a></strong>.</li>
+<li>Verify the <strong><a href="/Install/">XProtect Access Service</a></strong> is running. <ul>
 <li>Check the service tray icon on the server where the XPA service is installed to verify.<blockquote>
 <p><img alt="TrayIcon" src="img/CXAL.trayicon.png" />
 </p>
@@ -3455,22 +3536,22 @@
 </li>
 </ul>
 </li>
-<li>Make sure the Event Server connection to the XPA service is <a href="/MCConfig/ConnectionProperties/">connected</a>.</li>
-<li>Double check that the credentials used for the OpenAccess <a href="/MCConfig/ConnectionProperties/">user and password fields</a> are correct.</li>
+<li>Make sure the Event Server connection to the XPA service is <strong><a href="/MCConfig/ConnectionProperties/">connected</a></strong>.</li>
+<li>Double check that the credentials used for the OpenAccess <strong><a href="/MCConfig/ConnectionProperties/">user and password fields</a></strong> are correct.</li>
 </ul>
 </details>
 <details class="abstract">
 <summary>Events, alarms and status problems</summary>
 <ul>
 <li>Verify all required doors and other devices from the OnGuard system are added to the XProtect Access system.<ul>
-<li>As devices change over time, it's suggested to refresh the configuration from the <a href="/MCConfig/ConnectionProperties/">General Settings</a> tab.</li>
+<li>As devices change over time, it's suggested to refresh the configuration from the <strong><a href="/MCConfig/ConnectionProperties/">General Settings</a></strong> tab.</li>
 </ul>
 </li>
-<li>Check that events are displayed in the Smart Client <a href="/SCFeatures/ACWEvents/">access control workspace Events List</a>.<ul>
+<li>Check that events are displayed in the Smart Client <strong><a href="/SCFeatures/ACWEvents/">access control workspace Events List</a></strong>.<ul>
 <li>Make sure there are no filters applied which might be changing the results.</li>
 </ul>
 </li>
-<li>Check that events are being displayed in the Management Client when the Live Events <a href="/Troubleshooting/DevTabs/">dev tab</a> is displayed</li>
+<li>Check that events are being displayed in the Management Client when the Live Events <strong><a href="/Troubleshooting/DevTabs/">dev tab</a></strong> is displayed</li>
 <li>Match the Source of events appearing in the Smart Client access control workspace to any Alarms defined in the Alarm Definition menu of the Management Client.<ul>
 <li>Smart Client event source location:<blockquote>
 <p><img alt="SourceSC" src="img/CXAL.eventsourceSC.png" />
@@ -3484,7 +3565,7 @@
 </li>
 </ul>
 </li>
-<li>Open the <a href="/Tray/LogViewer/">log viewer application</a> and check the following logs to verify your events are received by the XProtect Access Service:<ul>
+<li>Open the <strong><a href="/Tray/LogViewer/">log viewer application</a></strong> and check the following logs to verify your events are received by the XProtect Access Service:<ul>
 <li>XPA Translator - Event Manager Logs<ul>
 <li>Change the log level to Debug and Apply the change. Send some events into the system and then Open the log file.<blockquote>
 <p><img alt="DebugLog" src="img/CXAL.debugeventlog.png" width="75%" />
@@ -3503,12 +3584,12 @@
 </details>
 <div class="admonition glass">
 <p class="admonition-title">Milestone Diagnostics Tool</p>
-<p>In order to have all of the log information that might be required to help troubleshoot event issues, it is recommended to use the Milestone Diagnostics Tool. Read about how to use this tool, and how to gather log data, <a href="https://doc.milestonesys.com/latest/en-US/portal/htm/chapter-page-diagnostics-tool.htm?tocpath=Tools%20%2526%20Architecture%7CMilestone%20Diagnostics%20Tool%7C_____0&quot; title=&quot;Milestone Diagnostics Tool">here</a>.</p>
+<p>In order to have all of the log information that might be required to help troubleshoot event issues, it is recommended to use the Milestone Diagnostics Tool. Read about how to use this tool, and how to gather log data, <strong><a href="https://doc.milestonesys.com/latest/en-US/portal/htm/chapter-page-diagnostics-tool.htm?tocpath=Tools%20%2526%20Architecture%7CMilestone%20Diagnostics%20Tool%7C_____0&quot; title=&quot;Milestone Diagnostics Tool">here</a></strong>.</p>
 </div>
 <h2 id="onguard">OnGuard<a class="headerlink" href="#onguard" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Check that the required <a href="https://supportcommunity.milestonesys.com/s/article/Lenel-OnGuard-XPA-Integration-not-receiving-OpenAccess-events-ACM-troubleshooting?language=en_US">OnGuard services</a> are running.</li>
-<li>Check SQL server configuration for the OnGuard system. This process is detailed in a knowledge base article <a href="https://supportcommunity.milestonesys.com/s/article/Lenel-OnGuard-XPA-Integration-not-receiving-OpenAccess-events-ACM-troubleshooting?language=en_US">here</a>.<ul>
+<li>Check that the required <strong><a href="https://supportcommunity.milestonesys.com/s/article/Lenel-OnGuard-XPA-Integration-not-receiving-OpenAccess-events-ACM-troubleshooting?language=en_US">OnGuard services</a></strong> are running.</li>
+<li>Check SQL server configuration for the OnGuard system. This process is detailed in a knowledge base article <strong><a href="https://supportcommunity.milestonesys.com/s/article/Lenel-OnGuard-XPA-Integration-not-receiving-OpenAccess-events-ACM-troubleshooting?language=en_US">here</a></strong>.<ul>
 <li>This step requires running a SQL query using SQL Server Management Studio and potentially modifying the configuration.</li>
 </ul>
 </li>

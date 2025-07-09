@@ -16,7 +16,7 @@
         <link rel="prev" href="../">
       
       
-        <link rel="next" href="../ACEventCats/">
+        <link rel="next" href="../GPSCoords/">
       
       
         
@@ -394,13 +394,13 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Intro/New43/" class="md-nav__link">
+      <a href="../../Intro/New44/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     
   
-    Whats new in version 4.3?
+    Whats new in version 4.4?
   
 
     
@@ -615,6 +615,33 @@
     
   
     Distributed deployment options
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Plan/DistEventSrv/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Distributed Event Server system design
   
 
     
@@ -2041,6 +2068,33 @@
   
   
     <li class="md-nav__item">
+      <a href="../GPSCoords/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    GPS coordinates
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../ACEventCats/" class="md-nav__link">
         
   
@@ -2424,6 +2478,33 @@
     
   
     Map icon hardware and status details
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SCFeatures/SmartMap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Smart Map
   
 
     
@@ -3378,6 +3459,14 @@
 
 <h1 id="categorize-events">Categorize events<a class="headerlink" href="#categorize-events" title="Permanent link">&para;</a></h1>
 <p>Large scale access control systems, such as those managed by OnGuard, need to functionally integrate with XProtect without programming large numbers of individual alarms and rules. Categorizing access control events minimizes the number of individual alarms and rules requiring programming.</p>
+<div class="admonition glass">
+<p class="admonition-title">OnGuard custom alarm definitions</p>
+<p>The latest update for the OnGuard XProtect Access integration (4.4 CU1), supports OnGuard custom alarm definitions. These customized combinations of devices and events can be
+created in the Alarm definition tab of the Monitoring &gt; Alarms menu in the OnGuard System Administration client. The Name field of the alarm definition is what will appear customized in XProtect. The format of the event message displayed in XProtect is as follows:</p>
+<p><code>OnGuard 'custom name text' (OnGuard event used to trigger the custom alarm)</code></p>
+<p>Once the integration has been upgraded to the 4.4 CU1 version, refreshing the configuration of the XProtect Access instance in the Management Client will import any events created from OnGuard customized alarm definitions. You can find the events listed in alphabetical order in the Access Control Events tab of the XProtect Access menu in the Management Client.</p>
+<p><img alt="Refresh config wizard alarm updates" src="../img/CXAL.CustomAlarmDef.png" /></p>
+</div>
 <p>Categorize events to generate XProtect alarms or rule-based actions triggered by any OnGuard event from the chosen category. For example, the integration can start recording video based on any number of unique OnGuard hardware events: “Door Forced,” “Denied, Badge Not in Panel,” and “Access Denied Unauthorized Entry Level.” Categorize the events, then create a rule to start recording based on events from that category.</p>
 <ol>
 <li>Go to the <strong>Access Control Events</strong> tab of the XProtect Access instance in the Management Client.</li>
